@@ -103,12 +103,15 @@ var instructions;
 var key_resp;
 var FixationClock;
 var fixation;
+var trialcounter_2;
 var TrialClock;
 var instruct_text;
 var background_square;
 var square;
 var mask;
 var response;
+var trialcounter;
+var correct_counter;
 var EndClock;
 var thank_you;
 var globalClock;
@@ -142,6 +145,18 @@ async function experimentInit() {
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
+  });
+  
+  trialcounter_2 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'trialcounter_2',
+    text: '',
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.45)], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: -1.0 
   });
   
   // Initialize components for Routine "Trial"
@@ -196,12 +211,27 @@ async function experimentInit() {
   
   response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  trialcounter = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'trialcounter',
+    text: '',
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.45)], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: -5.0 
+  });
+  
+  // Run 'Begin Experiment' code from track_accuracy
+  correct_counter = 0;
+  
   // Initialize components for Routine "End"
   EndClock = new util.Clock();
   thank_you = new visual.TextStim({
     win: psychoJS.window,
     name: 'thank_you',
-    text: 'This is the end of the experiment.\nThank you for your time.',
+    text: '',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
@@ -422,9 +452,11 @@ function FixationRoutineBegin(snapshot) {
     routineTimer.add(1.000000);
     // update component parameters for each repeat
     psychoJS.experiment.addData('Fixation.started', globalClock.getTime());
+    trialcounter_2.setText((((trials.thisN + 1).toString() + "/") + trials.nTotal.toString()));
     // keep track of which components have finished
     FixationComponents = [];
     FixationComponents.push(fixation);
+    FixationComponents.push(trialcounter_2);
     
     FixationComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -456,6 +488,20 @@ function FixationRoutineEachFrame() {
     frameRemains = 0.0 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (fixation.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       fixation.setAutoDraw(false);
+    }
+    
+    // *trialcounter_2* updates
+    if (t >= 0.0 && trialcounter_2.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      trialcounter_2.tStart = t;  // (not accounting for frame time here)
+      trialcounter_2.frameNStart = frameN;  // exact frame index
+      
+      trialcounter_2.setAutoDraw(true);
+    }
+    
+    frameRemains = 0.0 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (trialcounter_2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      trialcounter_2.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
@@ -520,6 +566,7 @@ function TrialRoutineBegin(snapshot) {
     response.keys = undefined;
     response.rt = undefined;
     _response_allKeys = [];
+    trialcounter.setText((((trials.thisN + 1).toString() + "/") + trials.nTotal.toString()));
     // keep track of which components have finished
     TrialComponents = [];
     TrialComponents.push(instruct_text);
@@ -527,6 +574,7 @@ function TrialRoutineBegin(snapshot) {
     TrialComponents.push(square);
     TrialComponents.push(mask);
     TrialComponents.push(response);
+    TrialComponents.push(trialcounter);
     
     TrialComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -634,6 +682,20 @@ function TrialRoutineEachFrame() {
       }
     }
     
+    
+    // *trialcounter* updates
+    if (t >= 0.0 && trialcounter.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      trialcounter.tStart = t;  // (not accounting for frame time here)
+      trialcounter.frameNStart = frameN;  // exact frame index
+      
+      trialcounter.setAutoDraw(true);
+    }
+    
+    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (trialcounter.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      trialcounter.setAutoDraw(false);
+    }
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -691,6 +753,9 @@ function TrialRoutineEnd(snapshot) {
         }
     
     response.stop();
+    // Run 'End Routine' code from track_accuracy
+    correct_counter += key_resp.corr;
+    
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -710,9 +775,9 @@ function EndRoutineBegin(snapshot) {
     EndClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(3.000000);
     // update component parameters for each repeat
     psychoJS.experiment.addData('End.started', globalClock.getTime());
+    thank_you.setText((((("You scored " + correct_counter.toString()) + "/") + trials.nTotal.toString()) + " correct!"));
     // keep track of which components have finished
     EndComponents = [];
     EndComponents.push(thank_you);
@@ -743,10 +808,6 @@ function EndRoutineEachFrame() {
       thank_you.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (thank_you.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      thank_you.setAutoDraw(false);
-    }
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -765,7 +826,7 @@ function EndRoutineEachFrame() {
     });
     
     // refresh the screen if continuing
-    if (continueRoutine && routineTimer.getTime() > 0) {
+    if (continueRoutine) {
       return Scheduler.Event.FLIP_REPEAT;
     } else {
       return Scheduler.Event.NEXT;
@@ -783,6 +844,9 @@ function EndRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('End.stopped', globalClock.getTime());
+    // the Routine "End" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -805,6 +869,8 @@ async function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
+  
+  
   psychoJS.window.close();
   psychoJS.quit({message: message, isCompleted: isCompleted});
   
