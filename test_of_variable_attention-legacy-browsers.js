@@ -732,7 +732,7 @@ function TrialRoutineEnd(snapshot) {
     if (((corrAns === "space") && _pj.in_es6("space", response.keys))) {
         correct_counter += 1;
     } else {
-        if (((corrAns === "none") && (! _pj.in_es6("space", response.keys)))) {
+        if (((corrAns === "none") && (! response.keys))) {
             correct_counter += 1;
         }
     }
