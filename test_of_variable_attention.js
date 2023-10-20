@@ -116,7 +116,6 @@ var TrialClock;
 var instruct_text;
 var background_square;
 var square;
-var mask;
 var response;
 var trialcounter;
 var correct_counter;
@@ -205,18 +204,6 @@ async function experimentInit() {
     opacity: 1, depth: -2, interpolate: true,
   });
   
-  mask = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'mask',
-    text: '',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: 1,
-    depth: -3.0 
-  });
-  
   response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
   trialcounter = new visual.TextStim({
@@ -228,7 +215,7 @@ async function experimentInit() {
     pos: [0, (- 0.45)], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
-    depth: -5.0 
+    depth: -4.0 
   });
   
   // Run 'Begin Experiment' code from track_accuracy
@@ -387,7 +374,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
     // set up handler to look after randomisation of conditions etc
     trials = new TrialHandler({
       psychoJS: psychoJS,
-      nReps: 5, method: TrialHandler.Method.RANDOM,
+      nReps: 3, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: 'conditions.xlsx',
       seed: undefined, name: 'trials'
@@ -577,7 +564,6 @@ function TrialRoutineBegin(snapshot) {
     TrialComponents.push(instruct_text);
     TrialComponents.push(background_square);
     TrialComponents.push(square);
-    TrialComponents.push(mask);
     TrialComponents.push(response);
     TrialComponents.push(trialcounter);
     
@@ -637,20 +623,6 @@ function TrialRoutineEachFrame() {
     frameRemains = 0.0 + 0.1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (square.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       square.setAutoDraw(false);
-    }
-    
-    // *mask* updates
-    if (t >= 0.1 && mask.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      mask.tStart = t;  // (not accounting for frame time here)
-      mask.frameNStart = frameN;  // exact frame index
-      
-      mask.setAutoDraw(true);
-    }
-    
-    frameRemains = 0.1 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (mask.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      mask.setAutoDraw(false);
     }
     
     // *response* updates
@@ -721,6 +693,7 @@ function TrialRoutineEachFrame() {
 }
 
 
+var _pj;
 function TrialRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'Trial' ---
@@ -742,10 +715,28 @@ function TrialRoutineEnd(snapshot) {
     
     response.stop();
     // Run 'End Routine' code from track_accuracy
-    if (((corrAns === "space") && key_resp.keys)) {
+    var _pj;
+    function _pj_snippets(container) {
+        function in_es6(left, right) {
+            if (((right instanceof Array) || ((typeof right) === "string"))) {
+                return (right.indexOf(left) > (- 1));
+            } else {
+                if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {
+                    return right.has(left);
+                } else {
+                    return (left in right);
+                }
+            }
+        }
+        container["in_es6"] = in_es6;
+        return container;
+    }
+    _pj = {};
+    _pj_snippets(_pj);
+    if (((corrAns === "space") && _pj.in_es6("space", key_resp.keys))) {
         correct_counter += 1;
     } else {
-        if (((corrAns === "none") && (! key_resp.keys))) {
+        if (((corrAns === "none") && (! _pj.in_es6("space", key_resp.keys)))) {
             correct_counter += 1;
         }
     }
