@@ -733,12 +733,10 @@ function TrialRoutineEnd(snapshot) {
     }
     _pj = {};
     _pj_snippets(_pj);
-    console.log(key_resp.keys);
-    console.log(corrAns);
-    if (((corrAns === "space") && _pj.in_es6("space", key_resp.keys))) {
+    if (((corrAns === "space") && _pj.in_es6("space", response.keys))) {
         correct_counter += 1;
     } else {
-        if (((corrAns === "none") && (! _pj.in_es6("space", key_resp.keys)))) {
+        if (((corrAns === "none") && (! _pj.in_es6("space", response.keys)))) {
             correct_counter += 1;
         }
     }
