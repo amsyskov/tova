@@ -673,12 +673,6 @@ function TrialRoutineEachFrame() {
         response.keys = _response_allKeys[_response_allKeys.length - 1].name;  // just the last key pressed
         response.rt = _response_allKeys[_response_allKeys.length - 1].rt;
         response.duration = _response_allKeys[_response_allKeys.length - 1].duration;
-        // was this correct?
-        if (response.keys == corrAns) {
-            response.corr = 1;
-        } else {
-            response.corr = 0;
-        }
       }
     }
     
@@ -732,21 +726,11 @@ function TrialRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('Trial.stopped', globalClock.getTime());
-    // was no response the correct answer?!
-    if (response.keys === undefined) {
-      if (['None','none',undefined].includes(corrAns)) {
-         response.corr = 1;  // correct non-response
-      } else {
-         response.corr = 0;  // failed to respond (incorrectly)
-      }
-    }
-    // store data for current loop
     // update the trial handler
     if (currentLoop instanceof MultiStairHandler) {
       currentLoop.addResponse(response.corr, level);
     }
     psychoJS.experiment.addData('response.keys', response.keys);
-    psychoJS.experiment.addData('response.corr', response.corr);
     if (typeof response.keys !== 'undefined') {  // we had a response
         psychoJS.experiment.addData('response.rt', response.rt);
         psychoJS.experiment.addData('response.duration', response.duration);
@@ -754,7 +738,13 @@ function TrialRoutineEnd(snapshot) {
     
     response.stop();
     // Run 'End Routine' code from track_accuracy
-    correct_counter += key_resp.corr;
+    if (((corrAns === "space") && key_resp.keys)) {
+        correct_counter += 1;
+    } else {
+        if (((corrAns === "none") && (! key_resp.keys))) {
+            correct_counter += 1;
+        }
+    }
     
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
