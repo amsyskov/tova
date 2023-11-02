@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0005,7.6703,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,,,,,,,,,,,,,,
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,7.6842,8.6767,8.677,10.7814,space,0.6336,,0,0,0,0,1,,space
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,10.7818,11.7813,11.7813,13.8766,space,0.5836,,0,1,1,1,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,13.8773,14.8653,14.8654,16.9595,,,,0,2,2,3,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,16.965,17.9651,17.9652,20.0599,,,,0,3,3,2,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,20.0606,21.0656,21.0656,23.1619,,,,1,0,4,2,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,23.1669,24.1604,24.1605,26.2605,,,,1,1,5,3,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,26.2703,27.2668,27.2668,29.3648,,,,1,2,6,1,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,29.3649,30.3601,30.3601,32.4605,space,0.7422,,1,3,7,0,1,,space
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,32.4701,33.4604,33.4605,35.5599,,,,2,0,8,2,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,35.5606,36.5602,36.5602,38.6596,,,,2,1,9,3,1,,none
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,38.6655,39.6599,39.6599,41.7646,space,0.4173,,2,2,10,0,1,,space
+,,EFJ,001,2023-11-02_14h14.24.740,test_of_variable_attention,2023.2.2,Win32,60.2373351,41.7647,42.7645,42.7645,44.8598,,,,2,3,11,1,1,,none
