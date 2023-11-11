@@ -1,0 +1,7 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns,response.rt,response.duration
+0.0001,13.1102,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,,,,,,,,,,,,,,
+,,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,13.1232,14.1243,14.1244,16.2107,,0,0,0,2,1,,none,,
+,,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,16.2113,17.2079,17.2081,19.3048,space,0,1,1,0,1,,space,0.4496,
+,,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,19.3056,20.3065,20.3066,22.4052,space,0,2,2,3,1,,none,0.5353,
+,,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,22.4155,23.4065,23.4067,25.5082,,0,3,3,1,1,,none,,
+,,po,001,2023-11-11_16h40.35.098,test_of_variable_attention,2023.2.2,MacIntel,60.0024001,25.5085,26.5049,26.5049,28.6071,space,1,0,4,1,1,,none,0.5353,
