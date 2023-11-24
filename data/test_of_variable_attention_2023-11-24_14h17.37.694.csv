@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0003,14.7743,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,,,,,,,,,,,,,,
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,14.7939,15.7898,15.7904,17.8877,space,0.8898,,0,0,0,0,1,,space
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,17.8889,18.8867,18.8867,20.9844,,,,0,1,1,3,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,20.9998,21.9832,21.9832,24.0819,,,,0,2,2,2,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,24.0827,25.0806,25.0807,27.179,,,,0,3,3,1,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,27.1993,28.1784,28.1784,30.2766,,,,1,0,4,2,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,30.2773,31.276,31.2761,33.3733,,,,1,1,5,1,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,33.3817,34.3724,34.3724,36.4706,space,0.5678,,1,2,6,0,1,,space
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,36.4713,37.4701,37.4702,39.5685,,,,1,3,7,3,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,39.5909,40.5841,40.5842,42.6824,,,,2,0,8,3,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,42.6831,43.6813,43.6814,45.7791,,,,2,1,9,1,1,,none
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,45.7891,46.7785,46.7785,48.8771,space,0.449,,2,2,10,0,1,,space
+,,,001,2023-11-24_14h17.37.694,test_of_variable_attention,2023.2.2,Win32,59.96282305,48.8881,49.8757,49.8757,51.9737,,,,2,3,11,2,1,,none
