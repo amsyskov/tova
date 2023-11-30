@@ -1,0 +1,15 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns,response.rt,response.duration,End.started
+1E-04,3.3119,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,,,,,,,,,,,,,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,3.3209,4.316,4.316,6.416,,0,0,0,3,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,6.4161,7.4159,7.416,9.5159,,0,1,1,2,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,9.5161,10.516,10.5161,12.6156,,0,2,2,1,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,12.62,13.616,13.616,15.7156,space,0,3,3,0,1,,space,0.4584,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,15.7158,16.7156,16.7156,18.8157,,1,0,4,1,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,18.82,19.8158,19.8158,21.9156,space,1,1,5,0,1,,space,0.6833,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,21.9158,22.9155,22.9155,25.0154,,1,2,6,2,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,25.0195,26.0153,26.0155,28.1153,space,1,3,7,3,1,,none,0.2433,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,28.1195,29.1153,29.1153,31.2152,,2,0,8,2,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,31.2154,32.2153,32.2153,34.3153,space,2,1,9,0,1,,space,0.4675,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,34.3194,35.315,35.3151,37.4151,,2,2,10,1,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,37.4152,38.415,38.4151,40.5151,,2,3,11,3,1,,none,,,
+,,1,001,2023-11-30_20h54.21.179,test_of_variable_attention,2023.2.2,Win32,238.7774594,,,,,,,,,,,,,,,40.5197
