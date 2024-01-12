@@ -1,0 +1,6 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns,response.rt,response.duration
+9.99999E-05,7.6631,gfvhbjnk,001,2024-01-12_13h27.42.715,test_of_variable_attention,2023.2.2,Win32,163.9344262,,,,,,,,,,,,,,
+,,gfvhbjnk,001,2024-01-12_13h27.42.715,test_of_variable_attention,2023.2.2,Win32,163.9344262,7.6736,8.6689,8.669,10.7658,,0,0,0,2,1,,none,,
+,,gfvhbjnk,001,2024-01-12_13h27.42.715,test_of_variable_attention,2023.2.2,Win32,163.9344262,10.7662,11.7658,11.7659,13.8628,space,0,1,1,0,1,,space,0.511,
+,,gfvhbjnk,001,2024-01-12_13h27.42.715,test_of_variable_attention,2023.2.2,Win32,163.9344262,13.8631,14.8627,14.8627,16.9596,space,0,2,2,1,1,,none,1.8426,
+,,gfvhbjnk,001,2024-01-12_13h27.42.715,test_of_variable_attention,2023.2.2,Win32,163.9344262,16.9647,17.9656,17.9657,20.0626,space,0,3,3,3,1,,none,1.4496,
