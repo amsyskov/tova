@@ -1,0 +1,3 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0001,7.8604,,001,2024-01-12_12h37.18.627,test_of_variable_attention,2023.2.2,Win32,60.24096386,,,,,,,,,,,,
+,,,001,2024-01-12_12h37.18.627,test_of_variable_attention,2023.2.2,Win32,60.24096386,7.8717,8.8706,8.8706,12.0203,,0,0,0,3,1,,none
