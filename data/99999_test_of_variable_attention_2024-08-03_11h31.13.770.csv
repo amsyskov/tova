@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+9.99999E-05,8.873,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,,,,,,,,,,,,,,
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,8.8823,9.8891,9.8892,11.9865,space,0.4458,,0,0,0,0,1,,space
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,11.9869,12.9892,12.9892,15.0865,,,,0,1,1,1,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,15.0867,16.0866,16.0866,18.1866,,,,0,2,2,2,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,18.1868,19.1866,19.1867,21.2892,,,,0,3,3,3,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,21.2895,22.2895,22.2896,24.3868,,,,1,0,4,3,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,24.3914,25.3869,25.3869,27.4869,,,,1,1,5,2,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,27.4871,28.4871,28.4871,30.587,,,,1,2,6,1,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,30.5917,31.5871,31.5871,33.6871,space,0.4501,,1,3,7,0,1,,space
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,33.6873,34.6871,34.6871,36.7872,space,0.4482,,2,0,8,0,1,,space
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,36.792,37.7872,37.7872,39.8873,,,,2,1,9,2,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,39.8874,40.8873,40.8873,42.9902,,,,2,2,10,3,1,,none
+,,99999,001,2024-08-03_11h31.13.770,test_of_variable_attention,2023.2.2,Win32,59.88023952,42.9949,43.9874,43.9874,46.0874,,,,2,3,11,1,1,,none
