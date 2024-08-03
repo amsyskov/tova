@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0002,7.2039,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,,,,,,,,,,,,,,
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,7.216,8.2232,8.2234,10.3207,space,1.533,,0,0,0,3,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,10.3219,11.3203,11.3204,13.4194,,,,0,1,1,1,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,13.4198,14.4203,14.4203,16.5197,space,0.3982,,0,2,2,0,1,,space
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,16.5204,17.5203,17.5204,19.6204,space,0.5128,,0,3,3,2,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,19.6211,20.6205,20.6205,22.7204,,,,1,0,4,2,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,22.7294,23.7205,23.7205,25.8207,space,0.2753,,1,1,5,1,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,25.8213,26.8195,26.8195,28.9202,space,0.398,,1,2,6,0,1,,space
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,28.9295,29.9201,29.9201,32.0205,space,0.285,,1,3,7,3,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,32.0211,33.0206,33.0206,35.1205,,,,2,0,8,2,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,35.1306,36.1201,36.1201,38.2206,,,,2,1,9,3,1,,none
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,38.2309,39.2207,39.2207,41.3206,space,0.3114,,2,2,10,0,1,,space
+,,test,001,2024-08-03_12h07.25.096,test_of_variable_attention,2023.2.2,MacIntel,60.24096386,41.3211,42.3206,42.3206,44.4207,space,0.295,,2,3,11,1,1,,none
