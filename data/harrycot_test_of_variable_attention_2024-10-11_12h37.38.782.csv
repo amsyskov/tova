@@ -1,0 +1,7 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0001,4.4306,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,,,,,,,,,,,,,,
+,,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,4.446,5.4365,5.4365,7.5387,space,0.4184,,0,0,0,3,1,,none
+,,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,7.5389,8.5373,8.5374,10.6323,,,,0,1,1,1,1,,none
+,,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,10.6329,11.6312,11.6313,13.7265,,,,0,2,2,2,1,,none
+,,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,13.7267,14.7255,14.7256,16.8205,space,0.4724,,0,3,3,0,1,,space
+,,harrycot,001,2024-10-11_12h37.38.782,test_of_variable_attention,2023.2.2,Win32,144.9275362,16.8209,17.8195,17.8195,19.9144,,,,1,0,4,3,1,,none
