@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0,6.2082,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,,,,,,,,,,,,,,
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,6.223,7.2244,7.2245,9.324,space,0.475,,0,0,0,0,1,,space
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,9.3247,10.3244,10.3245,12.4245,,,,0,1,1,2,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,12.425,13.4245,13.4246,15.5248,,,,0,2,2,3,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,15.5253,16.5248,16.5249,18.6246,,,,0,3,3,1,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,18.6253,19.6245,19.6246,21.7246,,,,1,0,4,1,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,21.7252,22.7238,22.7239,24.8245,space,0.4487,,1,1,5,0,1,,space
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,24.8252,25.8245,25.8246,27.9246,,,,1,2,6,2,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,27.9254,28.9246,28.9246,31.0236,,,,1,3,7,3,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,31.0241,32.0244,32.0245,34.1247,space,0.5071,,2,0,8,0,1,,space
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,34.1254,35.1247,35.1247,37.2247,,,,2,1,9,1,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,37.2253,38.2245,38.2245,40.3246,,,,2,2,10,2,1,,none
+,,,001,2024-10-24_09h50.48.845,test_of_variable_attention,2023.2.2,MacIntel,59.52380952,40.3252,41.3236,41.3236,43.4242,,,,2,3,11,3,1,,none
