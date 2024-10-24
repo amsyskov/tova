@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns,response.rt,response.duration
+0.0006,1.8073,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,,,,,,,,,,,,,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,1.8163,2.8068,2.8068,4.9073,,0,0,0,3,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,4.9081,5.9071,5.9073,8.0069,,0,1,1,1,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,8.0076,9.0075,9.0076,11.1078,,0,2,2,2,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,11.1086,12.1075,12.1076,14.2074,space,0,3,3,0,1,,space,0.6518,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,14.2081,15.2076,15.2076,17.3075,,1,0,4,3,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,17.3081,18.3074,18.3074,20.4081,,1,1,5,1,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,20.4095,21.4075,21.4075,23.5083,space,1,2,6,0,1,,space,0.5521,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,23.5089,24.5076,24.5076,26.6083,,1,3,7,2,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,26.6091,27.6082,27.6083,29.7085,,2,0,8,3,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,29.7092,30.7083,30.7084,32.8083,,2,1,9,2,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,32.8089,33.8085,33.8085,35.9086,,2,2,10,1,1,,none,,
+,,,001,2024-10-24_10h00.28.837,test_of_variable_attention,2023.2.2,Win32,59.88023952,35.9094,36.9084,36.9084,39.0077,space,2,3,11,0,1,,space,0.7502,0.0008
