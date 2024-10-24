@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0.0002,12.0921,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,,,,,,,,,,,,,,
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,12.1393,13.1085,13.1089,15.2088,space,0.581,,0,0,0,0,1,,space
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,15.2099,16.2081,16.2082,18.3081,space,0.4504,,0,1,1,2,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,18.3091,19.308,19.3081,21.4081,,,,0,2,2,1,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,21.4093,22.4083,22.4084,24.5079,,,,0,3,3,3,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,24.5089,25.4937,25.4937,27.5917,,,,1,0,4,3,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,27.5927,28.5914,28.5915,30.6921,,,,1,1,5,2,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,30.6928,31.6916,31.6917,33.7912,,,,1,2,6,1,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,33.7918,34.7916,34.7916,36.8916,space,0.3521,,1,3,7,0,1,,space
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,36.8924,37.8915,37.8916,39.9923,,,,2,0,8,1,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,39.9928,40.9917,40.9918,43.091,space,0.4218,,2,1,9,0,1,,space
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,43.0916,44.0912,44.0912,46.1907,,,,2,2,10,3,1,,none
+,,,001,2024-10-24_09h57.39.604,test_of_variable_attention,2023.2.2,Win32,59.88023952,46.1914,47.1912,47.1912,49.2914,,,,2,3,11,2,1,,none
