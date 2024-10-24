@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,response.rt,response.duration,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns
+0,6.822,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,,,,,,,,,,,,,,
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,6.833,7.832,7.833,9.935,space,0.43,,0,0,0,0,1,,space
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,9.935,10.933,10.933,13.033,,,,0,1,1,3,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,13.034,14.033,14.033,16.133,,,,0,2,2,2,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,16.134,17.133,17.134,19.233,,,,0,3,3,1,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,19.234,20.233,20.233,22.333,,,,1,0,4,2,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,22.334,23.333,23.334,25.433,,,,1,1,5,1,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,25.434,26.434,26.434,28.533,space,0.353,,1,2,6,0,1,,space
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,28.534,29.533,29.534,31.634,,,,1,3,7,3,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,31.634,32.634,32.634,34.733,,,,2,0,8,3,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,34.734,35.734,35.734,37.834,,,,2,1,9,2,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,37.834,38.834,38.834,40.934,,,,2,2,10,1,1,,none
+,,,001,2024-10-24_09h56.23.966,test_of_variable_attention,2023.2.2,MacIntel,58.82352941,40.934,41.934,41.934,44.034,space,0.4,,2,3,11,0,1,,space
