@@ -1,0 +1,14 @@
+﻿Instructions.started,Instructions.stopped,participant,session,date,expName,psychopyVersion,OS,frameRate,Fixation.started,Fixation.stopped,Trial.started,Trial.stopped,response.keys,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,position,corrAns,response.rt,response.duration
+0.0003,7.1714,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,,,,,,,,,,,,,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,7.2382,8.1769,8.1777,10.2766,,0,0,0,3,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,10.2792,11.267,11.2673,13.3604,,0,1,1,2,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,13.3623,14.3661,14.3663,16.4596,,0,2,2,1,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,16.4615,17.4498,17.4501,19.544,space,0,3,3,0,1,,space,0.3452,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,19.5461,20.5491,20.5493,22.6497,,1,0,4,3,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,22.6512,23.6439,23.6442,25.7441,,1,1,5,1,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,25.7455,26.7438,26.7439,28.8433,,1,2,6,2,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,28.8444,29.8434,29.8435,31.9436,space,1,3,7,0,1,,space,0.3781,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,31.9448,32.9412,32.9414,35.0418,,2,0,8,3,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,35.0426,36.041,36.0411,38.1412,,2,1,9,2,1,,none,,
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,38.1416,39.1409,39.141,41.2426,space,2,2,10,0,1,,space,0.4816,0.0056
+,,,001,2024-11-05_10h13.40.422,test_of_variable_attention,2023.2.2,Win32,60.24096386,41.2437,42.2428,42.2429,44.3415,,2,3,11,1,1,,none,,
